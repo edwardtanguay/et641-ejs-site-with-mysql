@@ -1,0 +1,6 @@
+
+        <div class="books">
+            <% books.forEach((book) => { %>
+                <a href="book/<%=book.idCode%>"><img class="book" src="images/books/<%=book.idCode%>.png"/></a>
+            <% }) %>
+        </div>
